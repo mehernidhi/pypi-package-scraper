@@ -1,0 +1,26 @@
+# Downloaded package artifacts — this tool writes these to CWD.
+# Never commit them: they are large, regenerable, and untrusted by design.
+*.whl
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
